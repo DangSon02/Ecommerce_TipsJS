@@ -3,10 +3,10 @@
 ### signup
 POST {{url_dev}}/shop/signup
 Content-Type: application/json
-x-api-key: cf9773f1e2c48b0c58c089bc8be1f5e65f0c6c57cfb0f9113d54d5d1d74e6105a89c9ed18531fe36b53c8ce6099fe912c854318fa448138c809119c0d00d2781
+x-api-key:e08b5edd59e4c4dbd7e15b6499d10379bc938570fad5a1298cdc75813495f54cb5045a201f8ff3f965e1bb04e0e16c019e0ac3952d02280aa1645eaa8032df53
 
 {
    "name": "Shop Tips",
-   "email": "shoptipsjs@gmail.com",
+   "email": "shopDevjs@gmail.com",
    "password": "abc123"
 }
