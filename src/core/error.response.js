@@ -40,7 +40,7 @@ class BadRequestError extends ErrorResponse {
 class AuthFailureError extends ErrorResponse {
   constructor(
     message = ReasonPhrases.UNAUTHORIZED,
-    statusCode = StatusCode.UNAUTHORIZED
+    statusCode = StatusCodes.UNAUTHORIZED
   ) {
     super(message, statusCode);
   }
@@ -49,7 +49,16 @@ class AuthFailureError extends ErrorResponse {
 class NotFoundError extends ErrorResponse {
   constructor(
     message = ReasonPhrases.NOT_FOUND,
-    statusCode = StatusCode.NOT_FOUND
+    statusCode = StatusCodes.NOT_FOUND
+  ) {
+    super(message, statusCode);
+  }
+}
+
+class FobiddenError extends ErrorResponse {
+  constructor(
+    message = ReasonPhrases.FORBIDDEN,
+    statusCode = StatusCodes.FORBIDDEN
   ) {
     super(message, statusCode);
   }
@@ -60,4 +69,5 @@ module.exports = {
   BadRequestError,
   AuthFailureError,
   NotFoundError,
+  FobiddenError,
 };
