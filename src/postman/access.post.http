@@ -6,7 +6,7 @@ Content-Type: application/json
 x-api-key:e08b5edd59e4c4dbd7e15b6499d10379bc938570fad5a1298cdc75813495f54cb5045a201f8ff3f965e1bb04e0e16c019e0ac3952d02280aa1645eaa8032df53
 
 {
-   "name": "Shop Tips",
-   "email": "shopDevjs@gmail.com",
+   "name": "Shop Phien",
+   "email": "shopPhinevjs@gmail.com",
    "password": "abc123"
 }
